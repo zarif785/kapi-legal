@@ -9,7 +9,7 @@
   --slate:  #5E645C;
   --hair:   #E2E4DE;
   --raise:  #F4F5F1;
-  --link:   #34603C;
+  --link:   #2F6E9E;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,7 +19,7 @@
     --slate:  #9AA396;
     --hair:   #2C3129;
     --raise:  #1C1F19;
-    --link:   #8FC095;
+    --link:   #8FC2E8;
   }
 }
 
