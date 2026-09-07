@@ -1,0 +1,134 @@
+/* Kapi — legal pages.
+   Plain, quiet, and readable on a phone, because that is where App Review
+   opens them. No fonts fetched, no scripts, no build step: the .nojekyll file
+   next to this one tells GitHub Pages to serve these as they are. */
+
+:root {
+  --ground: #FCFCFA;
+  --ink:    #1B1D1A;
+  --slate:  #5E645C;
+  --hair:   #E2E4DE;
+  --raise:  #F4F5F1;
+  --link:   #34603C;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #14160F;
+    --ink:    #E8EAE2;
+    --slate:  #9AA396;
+    --hair:   #2C3129;
+    --raise:  #1C1F19;
+    --link:   #8FC095;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+  padding: 3rem 1.25rem 6rem;
+}
+
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.home {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  font-size: 0.92rem;
+  color: var(--slate);
+  text-decoration: none;
+}
+.home:hover { color: var(--ink); }
+
+h1 {
+  font-size: clamp(1.7rem, 1.3rem + 1.8vw, 2.3rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.4rem;
+}
+
+h2 {
+  font-size: 1.18rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 2.6rem 0 0.7rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--hair);
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1.8rem 0 0.4rem;
+}
+
+.updated {
+  color: var(--slate);
+  font-size: 0.92rem;
+  margin: 0 0 2rem;
+}
+
+p, li { margin: 0 0 0.9rem; }
+
+ul, ol { padding-left: 1.3rem; }
+
+a { color: var(--link); text-underline-offset: 0.15em; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+
+strong { font-weight: 600; }
+
+.lead {
+  font-size: 1.05rem;
+  background: var(--raise);
+  border: 1px solid var(--hair);
+  padding: 1.1rem 1.2rem;
+  margin-bottom: 2rem;
+}
+.lead p:last-child { margin-bottom: 0; }
+
+.acl {
+  background: var(--raise);
+  border: 1px solid var(--hair);
+  padding: 1.1rem 1.2rem;
+  font-weight: 600;
+}
+.acl p:last-child { margin-bottom: 0; }
+
+.table-wrap { overflow-x: auto; margin: 0 0 1.2rem; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+th, td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.6rem 0.9rem 0.6rem 0;
+  border-bottom: 1px solid var(--hair);
+}
+th { font-weight: 600; }
+
+footer {
+  margin-top: 3.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--hair);
+  color: var(--slate);
+  font-size: 0.9rem;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  margin-top: 0.6rem;
+}
