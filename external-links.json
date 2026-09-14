@@ -1,0 +1,107 @@
+[
+  {
+    "url": "https://apps.apple.com/account/subscriptions",
+    "status": 200,
+    "final": "https://appleid.apple.com/"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "status": 200,
+    "final": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "status": 200,
+    "final": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by/2.0/fr/",
+    "status": 200,
+    "final": "https://creativecommons.org/licenses/by/2.0/fr/"
+  },
+  {
+    "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "status": 200,
+    "final": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+  },
+  {
+    "url": "https://github.com/RevenueCat/purchases-ios",
+    "status": 200,
+    "final": "https://github.com/RevenueCat/purchases-ios"
+  },
+  {
+    "url": "https://github.com/davidluzgouveia/kanji-data",
+    "status": 200,
+    "final": "https://github.com/davidluzgouveia/kanji-data"
+  },
+  {
+    "url": "https://ico.org.uk",
+    "status": 200,
+    "final": "https://ico.org.uk"
+  },
+  {
+    "url": "https://kanjivg.tagaini.net/",
+    "status": 200,
+    "final": "https://kanjivg.tagaini.net/"
+  },
+  {
+    "url": "https://policies.google.com/privacy",
+    "status": 200,
+    "final": "https://policies.google.com/privacy"
+  },
+  {
+    "url": "https://support.apple.com/118223",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/118223"
+  },
+  {
+    "url": "https://tatoeba.org/",
+    "status": 200,
+    "final": "https://tatoeba.org/en/"
+  },
+  {
+    "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "status": 200,
+    "final": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+  },
+  {
+    "url": "https://www.apple.com/legal/privacy/",
+    "status": 200,
+    "final": "https://www.apple.com/legal/privacy/"
+  },
+  {
+    "url": "https://www.edrdg.org/edrdg/licence.html",
+    "status": 200,
+    "final": "https://www.edrdg.org/edrdg/licence.html"
+  },
+  {
+    "url": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project",
+    "status": 200,
+    "final": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project"
+  },
+  {
+    "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+    "status": 200,
+    "final": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+  },
+  {
+    "url": "https://www.manythings.org/anki/",
+    "status": 406,
+    "note": "HTTP error; may reflect access restrictions rather than broken source"
+  },
+  {
+    "url": "https://www.oaic.gov.au",
+    "status": 200,
+    "final": "https://www.oaic.gov.au"
+  },
+  {
+    "url": "https://www.revenuecat.com/dpa",
+    "status": 200,
+    "final": "https://www.revenuecat.com/dpa"
+  },
+  {
+    "url": "https://www.revenuecat.com/privacy",
+    "status": 200,
+    "final": "https://www.revenuecat.com/privacy"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "privacy": {
+    "source": "privacy.md",
+    "sha256": "d4ecfb7410a3fc32999883fdf365a5a230b53abb47fa923fbf8b1ac0a5abbfb7",
+    "contentBlocks": 54,
+    "textCoverage": "every source block checked in order",
+    "linksChecked": 19
+  },
+  "terms": {
+    "source": "terms.md",
+    "sha256": "c047a070b2a575ec2a6623add1a6c083611cc72e1a2798e5802ff0ebff5cdcf5",
+    "contentBlocks": 87,
+    "textCoverage": "every source block checked in order",
+    "linksChecked": 25
+  },
+  "support": {
+    "source": "legal-site/support.md",
+    "sha256": "5ecbb46007387c720a0b4852d9c4d24260dde6ffc1ab677b504ff072a312a821",
+    "contentBlocks": 16,
+    "textCoverage": "every source block checked in order",
+    "linksChecked": 11
+  }
+}

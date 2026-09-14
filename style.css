@@ -132,3 +132,6 @@ footer {
   gap: 0.4rem 1.4rem;
   margin-top: 0.6rem;
 }
+
+/* Long source links remain readable on narrow screens. */
+a { overflow-wrap: anywhere; }
